@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Site Final</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation : menu nav et logo
+      ================================================== -->
+  <header id="topmenu">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+        <div class="hidden-xs">
+          <a class="navbar-brand" href="#"><img src="images/logo_transparent.png" alt="logo"></a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="#menurestaurant">Menu</a></li>
+          <li><a href="#carouselFade">Gallerie</a></li>
+          <li><a href="#events">Evénements</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#foot">Livraison</a></li>
+          <li><a href="#foot">Contact</a></li>
+          <li><a href="#foot">Accès</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /.navbar-collapse -->
+  </header>
+
+  <!-- Video -->
+  <section id="bloc_video" class="container">
+
+    <video poster="images/Image_video.png" id="bgvid" playsinline autoplay muted loop>
+      <source src="Video/Moony.mov" type="video/webm">
+
+    </video>
+    <div id="moony">
+      <h1>Nos valeurs :</h1>
+
+      <!--<a href="https://player.vimeo.com/video/135651630" width="640" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay></iframe>Vidéo complète >>></a> -->
+      <a class="btn btn-default" href="https://player.vimeo.com/video/135651630" target=_blank role="button">Voir la vidéo</a>
+      <p>
+        Moony c'est l'aventure de 2 gourmands: un frère passionné depuis toujours par la cuisine de son sud-ouest natal... et une
+        soeur qui a parcouru le monde pour goûter aux différentes saveurs de 60 pays. En alliant leurs expériences culinaires
+        et internationales ils donnent naissance à un concept unique! Au Moony on propose chaque jour de nouveaux plats frais
+        (pièce du boucher, poisson frais, plats végés), des tapas et assiettes du marché et on revisite les incontournables
+        internationaux (burgers gourmets, wok végétariens, brunch, cafés cocktails, cocktails new yorkais) avec des recettes
+        100% fait maison et des produits régionaux. Au soleil en terrasse place st michel, à l'ombre d'un parasol dans le
+        patio privé, dans une ambiance « sports bar » retranscrite par la diffusion des matchs en direct et une déco intégrant
+        des équipements sportifs authentiques, le Moony une brasserie nouvelle génération ouverte tous les jours, toute l’année
+        (en service continu l'été) sur place, ou à emporter. Le Moony a le plaisir d’accueillir des clients dynamiques, sportifs,
+        voyageurs, au sein de son restaurant. Il est également possible d'organiser des événements pour les groupes, adaptés
+        aux associations sportives, comités d'entreprises ou à quiconque souhaitant célébrer un anniversaire ou tout autre
+        moment de vie dans un espace agréable où règne chaleur et convivialité.
+      </p>
+
+      <button>Pause</button>
+    </div>
+
+  </section>
+  <!-- Fin video -->
+
+  <!-- Carte du restaurant -->
+  <section id="menurestaurant">
+    <div class="container-fluid">
+      <div class="row2">
+        <div class="col-xs-12 col-md-3 redflame"><img src="images/burger1.png">
+          <p>Nos Burgers</p>
+          <div class="overlayleft">
+            <div class="text">
+              <h3>Moony Classic</h3>
+              <p>Boeuf, cheddar, tomate, salade, oignon</p>
+              <h3>Chicken</h3>
+              <p>Poulet pane, cheddar, tomate, salade, oignon</p>
+              <h3>Savoyard</h3>
+              <p>Boeuf, Bacon, raclette, serrano, cheddar, tomate, salade, oignon</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-3 yellow"><img src="images/wrap1.png">
+          <p>XL Wraps !</p>
+          <div class="overlayright">
+            <div class="text">
+              <h3>Hamlet</h3>
+              <p>Jambon blanc, mozzarella, concombre, tomate, salade</p>
+              <h3>Chica Chic</h3>
+              <p>Poulet, brebis, oignons, poivrons, salade</p>
+              <h3>Hotchill</h3>
+              <p>Boeuf épicé, fromage, poivrons, oignons, tabasco, salade, moutarde</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-3 redflame"><img src="images/challenger.png">
+          <p>Challenger !</p>
+          <div class="overlayleft">
+            <div class="text">
+              <p> Quatre étages de boeuf & Cheddar, bacon, rosti de pomme de terre, tomate salade oignon</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-3 yellow"><img src="images/pimp.png">
+          <p>Pimp Burger</p>
+          <div class="overlayright">
+            <div class="text">
+              <p>Ajoutez vos ingrédients à votre Burger !
+                <br /> Steack / Oeuf / Bacon
+                <br /> Rosti / Cheddar / Brebis
+                <br /> Chèvre / Foie gras / Salade verte
+
+
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row2">
+        <div class="col-xs-12 col-md-3 yellow"><img src="images/salades.png">
+          <p>Salades</p>
+          <div class="overlayleft">
+            <div class="text">
+              <h3>Salades maison</h3>
+              <p>Retrouvez toutes nos salades, composées selon la saison et le marché</p>
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-3 redflame"><img src="images/boissons.png">
+          <p>Boissons</p>
+          <div class="overlayright">
+            <div class="text">
+              <h3>Boissons</h3>
+              <p>Retrouvez toutes nos boissons, alcoolisées ou non dans votre restaurant<br />
+                <span class="disclaimer">L'abus d'alcool est dangereux pour la santé, à consommer avec modération</span>
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-3 yellow"><img src="images/dessert.png">
+          <p>Desserts</p>
+          <div class="overlayleft">
+            <div class="text">
+              <h3>Desserts</h3>
+              <p>Retrouvez tous nos desserts, mis à jour selon l'humeur du chef<br /></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-3 redflame"><img src="images/cafe.png">
+          <p>Boissons chaudes</p>
+          <div class="overlayright">
+            <div class="text">
+              <h3>Nos boissons chaudes</h3>
+              <p>A toute heure, retrouvez en restaurant notre carte de cafés et chocolats chauds<br /></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Carte du restaurant -->
+
+  <!-- Certificats -->
+  <section class="certificat">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <img src="images/macaron1.png">
+          <span class="fries">Frites <br /> Maison</span>
+          <span class="norelief">100%</span>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <img src="images/macaron2.png">
+          <span class="bread">PAIN BOULANGER</span>
+          <div class="stars">
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <img src="images/macaron3.png">
+          <span class="vbf">100% VBF</span>
+          <img src="images/icon_boeuf.png" alt="Miam le boeuf français" class="boeuf">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fin Certificats -->
+  <!-- Wrapper for slides -->
+  <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+      </div>
+      <div class="item">
+      </div>
+      <div class="item">
+      </div>
+      <div class="item">
+      </div>
+      <div class="item">
+      </div>
+      <div class="item">
+      </div>
+      <div class="item">
+      </div>
+      <div class="item">
+      </div>
+      <div class="item">
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+    <a class="right carousel-control" href="#carouselFade" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+  </div>
+  <aside>
+    <div id="logo"></div>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://fr-fr.facebook.com/MOONY-214864855239151/" target="_blank">
+                    <img src="images/facebookmini.png" alt="Facebook">
+                  </a>
+        </li>
+        <li>
+          <a href="https://plus.google.com/u/0/117767551774553180084" target="_blank">
+                    <img src="images/google+mini.png" alt="Google+">
+                  </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/moonyburger/" target="_blank">
+                    <img src="images/instagrammini.png" alt="Instagram">
+                  </a>
+        </li>
+        <li>
+          <a href="https://www.tripadvisor.fr/Restaurant_Review-g187080-d2526815-Reviews-Moony_The_Homemade_Burger_Factory-Biarritz_Basque_Country_Pyrenees_Atlantiques_No.html" target="_blank">
+                    <img src="images/tripadvisormini.png" alt="TripAdvisor">
+                  </a>
+        </li>
+        <li>
+          <a href="#topmenu">
+                    <img src="images/topiconmini.png" alt="Topmenu">
+                  </a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+  <!-- Fin Sidebar-->
+
+  <!-- Evenements-->
+  <section>
+    <div id="events" class="panels">
+      <div class="panel panel1">
+        <p>24 heures du Mans</p>
+        <p><img src="images/icon.png"> <cite> La première compétition en 1923, les 24 Heures du
+                    Mans sont devenus un des grands rendez-vous des sports mécaniques.</cite> Diffusion: Lundi 25 Janvier<br>          </p>
+        <p></p>
+      </div>
+      <div class="panel panel2">
+        <p>Give</p>
+        <p><img src="images/icon.png"> La première compétition en 1923, les 24 Heures du Mans sont devenus un des grands rendez-vous
+          des sports mécaniques. </p>
+        <p></p>
+      </div>
+      <div class="panel panel3">
+        <p>Experience</p>
+        <p><img src="images/icon.png"> La première compétition en 1923, les 24 Heures du Mans sont devenus un des grands rendez-vous
+          des sports mécaniques. </p>
+        <p></p>
+      </div>
+      <div class="panel panel4">
+        <p>Give</p>
+        <p><img src="images/icon.png"> La première compétition en 1923, les 24 Heures du Mans sont devenus un des grands rendez-vous
+          des sports mécaniques. </p>
+        <p></p>
+      </div>
+    </div>
+  </section>
+  <!-- Fin Evenements-->
+
+  <!-- Début Contact Map-->
+  <section class="contactmap">
+    <div class="container-fluid">
+      <div class="row1">
+        <div class="col-xs-12 col-md-12">
+          <h4>Horaires d'ouverture</h4>
+          <p class="horaires">
+            Du Mardi au Dimanche <br /> De 11H30 à 14H30 <br /> De 19h30 à 22H30 <br />
+
+          </p>
+        </div>
+      </div>
+
+      <div class="row1">
+        <div class="col-xs-12 col-md-3">
+
+          <div id="foodora">
+
+            <a href="https://www.foodora.fr/en/restaurant/s7ub/moony?r=1" target="_blank">
+                          <img src="images/Foodora_logo_pink.png" alt="Livraison avec Foodora !">
+                    </a>
+            <p> Livrez-moi !</p>
+          </div>
+
+          <div id="TA_selfserveprop673" class="TA_selfserveprop">
+            <ul id="YRO06HoVubxe" class="TA_links 6Hil9Njv">
+              <li id="sbIicxFM" class="K2yXBwhMp">
+                <a target="_blank" href="https://www.tripadvisor.fr/">
+                                <img src="https://www.tripadvisor.fr/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/>
+                            </a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+
+        <div class="col-xs-12 col-md-5">
+          <form class="form-horizontal">
+            <fieldset>
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="name">Votre nom</label>
+                <div class="col-md-8">
+                  <input id="name" name="name" placeholder="Votre nom" class="form-control input-md" required="" type="text">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="mail">Votre email</label>
+                <div class="col-md-8">
+                  <input id="mail" name="mail" placeholder="Votre email" class="form-control input-md" required="" type="text">
+
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="subject">Sujet de votre message</label>
+                <div class="col-md-8">
+                  <select id="subject" name="subject" class="form-control">
+                                    <option value="1">A propos de votre site internet</option>
+                                    <option value="2">A propos de votre restaurant</option>
+                                    <option value="3">Autre raison</option>
+                                </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="message"></label>
+                <div class="col-md-8">
+                  <textarea class="form-control" id="message" name="message">Rédigez votre message !</textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="button"></label>
+                <div class="col-md-8">
+                  <button id="button" name="button" class="btn btn-primary">Envoyez !</button>
+                </div>
+              </div>
+
+            </fieldset>
+          </form>
+
+
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHLwTkjQdInieAjFA2tDetgne1-ytINMc '></script>
+          <div style='overflow:hidden;height:298px;width:382px;'>
+            <div id='gmap_canvas' style='height:298px;width:382px;'></div>
+            <style>
+              #gmap_canvas img {
+                max-width: none!important;
+                background: none!important
+              }
+            </style>
+          </div> <a href='https://embedmaps.net'>embed google maps directions</a>
+          <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=349922a165f6aa5c81073bded8ff903bcedaa826'></script>
+          <script type='text/javascript'>
+            function init_map() { var myOptions = { zoom: 12, center: new google.maps.LatLng(44.8346539, -0.5666396999999961), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(44.8346539, -0.5666396999999961) }); infowindow = new google.maps.InfoWindow({ content: '<strong>Moony</strong><br>28 place meynard<br> Bordeaux<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);
+          </script>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fin Contact Map-->
+  <!-- Début Footer-->
+
+  <footer id="foot">
+    <div class="row3">
+      <div class="col-xs-12 col-md-12 redflame">
+        <p><a href="#">CGU</a> - <a href="#">Mentions légales</a> - <a href="#">A propos</a></p>
+        <br />
+        <p>Designed and built with all the love in the universe by Cante'Loupe</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Fin footer-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=673&amp;locationId=10284682&amp;lang=fr&amp;rating=true&amp;nreviews=3&amp;writereviewlink=true&amp;popIdx=false&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,710 @@
+/* navbar */
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.navbar-left>li, .navbar-right>li{
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 35px;
+}
+.navbar-brand {
+    padding-top: 5px;
+    margin-top: 0;
+}
+.navbar-right{
+    margin-right: 10px;
+}
+.navbar{
+    border-radius: none;
+}
+.navbar-nav{
+    padding-top: 90px;
+}
+#moonylogo{
+  margin-bottom: 20px;
+}
+.navbar{
+  border-radius: 0;
+  height: 230px;
+}
+.navbar-left>li:before {
+content:'';
+position: absolute;
+top: 3px;
+left: 0px;
+width: 100%;
+height: 0px;
+background: rgba(255,255,255,0.3);
+border-radius: 5px;
+transition: all 0.5s ease;
+}
+.navbar-right>li:before {
+content:'';
+position: absolute;
+top: 3px;
+left: 0px;
+width: 100%;
+height: 0px;
+background: rgba(255,255,255,0.3);
+border-radius: 5px;
+transition: all 0.5s ease;
+}
+li:hover:before {
+height: 42px;
+}
+
+/* navbar */
+
+
+/* Vidéo */
+
+video { 
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 1295px;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url('Images/Image_video.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+ opacity: .5;
+}
+
+#moony { 
+  
+font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+font-weight:100; 
+background: rgba(0,0,0,0.3);
+color: white;
+padding: 2rem;
+width: 33%;
+margin:2rem;
+float: right;
+font-size: 1.8rem;
+}
+
+#moony p {
+  
+      overflow:scroll;
+      height: 350px;
+    }
+
+h1 {
+font-size: 3rem;
+text-transform: uppercase;
+margin-top: 0;
+letter-spacing: .3rem;
+}
+#moony button { 
+display: block;
+width: 80%;
+padding: .4rem;
+border: none; 
+margin: 1rem auto; 
+font-size: 1.3rem;
+background: rgba(255,255,255,0.23);
+color: #fff;
+border-radius: 3px; 
+cursor: pointer;
+transition: .3s background;
+}
+#moony button:hover { 
+ background: rgba(0,0,0,0.5);
+}
+
+#moony a {
+display: inline-block;
+color: #fff;
+text-decoration: none;
+background:rgba(0,0,0,0.5);
+padding: .5rem;
+transition: .6s background; 
+}
+#moony a:hover{
+background:rgba(0,0,0,0.9);
+}
+
+/* Fin Vidéo */
+
+/* début css carte du restaurant */
+#menurestaurant .disclaimer {
+  font:italic 10px sans-serif;
+  color:yellow;
+
+}
+
+
+#menurestaurant .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+#menurestaurant .row2 [class*="col-"], footer {
+
+  padding-top: 20px;
+  line-height: 40px;
+  text-align: center;
+  color:white;
+  font : bold 20px sans-serif;
+}
+
+#menurestaurant img {
+  width: 180px;
+  height: auto;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#menurestaurant .overlayleft {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: grey;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+#menurestaurant [class*="col-"]:hover .overlayleft {
+  width: 100%;
+  left: 0;
+}
+
+#menurestaurant .overlayright {
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background-color: grey;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+#menurestaurant [class*="col-"]:hover .overlayright {
+  width: 100%;
+  right: 0;
+}
+
+#menurestaurant .text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  overflow: hidden;
+  top: 30%;
+  left: 30%;
+  transform: translate(-30%, -30%);
+  -ms-transform: translate(-30%, -30%);
+}
+#menurestaurant h3 {
+  font-size: 10px;
+
+}
+#menurestaurant p {
+  font-size:8px;
+}
+
+
+#menurestaurant .redflame {
+  background-color: black;
+}
+#menurestaurant .yellow {
+  background-color: darkgrey;
+}
+
+/* fin css carte du restaurant */
+
+/* debut css certificats */
+
+.certificat .container-fluid .fries {
+  position: absolute;
+  bottom: 75px;
+  left: 115px;
+  color: red;
+  font: bold 2em sans-serif;
+  text-shadow: 2px 2px 0 white;
+  text-align: center;
+  line-height: 80px;
+}
+
+.certificat .container-fluid .norelief {
+  position: absolute;
+  bottom: 135px;
+  left: 128px;
+  color: white;
+  font: bold 2em sans-serif;
+  text-align: center;
+}
+
+.certificat .container-fluid .bread {
+  position: absolute;
+  bottom: 130px;
+  left: 75px;
+  color: white;
+  font: bold 1.4em sans-serif;
+  text-align: center;
+  background-color: black;
+  padding: 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.certificat .container-fluid .stars {
+  position: absolute;
+  bottom: 80px;
+  left: 110px;
+  color: white;
+  font: bold 2.5em sans-serif;
+  text-align: center;
+  padding: 20px 10px 20px;
+
+}
+
+.certificat .container-fluid .vbf {
+  position: absolute;
+  bottom: 170px;
+  left: 90px;
+  color: white;
+  font: bold 2em sans-serif;
+  text-align: center;
+  padding: 20px 10px 20px;
+
+}
+
+.certificat .container-fluid .boeuf {
+  position: absolute;
+  bottom: 60px;
+  left: 70px;
+  color: white;
+  font: bold 2em sans-serif;
+  text-align: center;
+  padding: 20px 10px 20px;
+
+}
+/*fin css certificats */
+
+/* sidebar */
+aside{
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:20;
+  margin-top: 300px;
+  margin-left: -45px;
+}
+aside li{
+  list-style: none;
+}
+/* sidebar */
+
+/* Carousel */
+  .carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+  }
+  
+  .carousel-fade .carousel-inner .active {
+    opacity: 1;
+  }
+  
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+  }
+  
+  .carousel-fade .carousel-control {
+    z-index: 2;
+  } 
+  @media all and (transform-3d), (-webkit-transform-3d) {
+      .carousel-fade .carousel-inner > .item.next,
+      .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+      }
+      .carousel-fade .carousel-inner > .item.prev,
+      .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+      }
+      .carousel-fade .carousel-inner > .item.next.left,
+      .carousel-fade .carousel-inner > .item.prev.right,
+      .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+      }
+  } 
+  .carousel-caption {
+      text-shadow: 0 1px 4px rgba(0,0,0,.9);
+    font-size:17px
+  }
+  .carousel-caption h3 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+  }
+      html,
+      body,
+      .carousel,
+      .carousel-inner,
+      .carousel-inner .item {
+        height: 100%;
+      } 
+      .item:nth-child(1) {
+    background: url('images/biarritz3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+      }
+  
+      .item:nth-child(2) {
+        background: url('images/biarritz6.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+      }
+  
+      .item:nth-child(3) {
+        background: url('images/biarritz8.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+      }
+      .item:nth-child(4) {
+        background: url('images/biarritz11.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+      }
+      .item:nth-child(5) {
+        background: url('images/food1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+      }
+      .item:nth-child(6) {
+        background: url('images/food3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+      }
+      .item:nth-child(7) {
+        background: url('images/food4.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+      }
+      .item:nth-child(8) {
+        background: url('images/food13.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+      }
+      .item:nth-child(9) {
+        background: url('images/food15.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+      }
+      @media screen and (max-width: 768px){
+          #carouselFade{
+            display: none;
+
+          }
+      }
+
+/* Carousel */
+/* Evenement sportif */
+
+/**,
+*:before,
+*:after {
+    box-sizing: inherit;
+    
+}*/
+
+.panels {
+    min-height: 40vh;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.panel {
+    background: #6B0F9C;
+    color: white;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    /* Safari transitionend event.propertyName === flex */
+    /* Chrome + FF transitionend event.propertyName === flex-grow */
+    -webkit-transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s, -webkit-box-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+    transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s, -webkit-box-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+    transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+    transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s, -webkit-box-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), -ms-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+    font-size: 15px;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-radius: none;
+}
+
+.panel1 {
+    background-image: url("images/24_heures_mans.jpg");
+}
+
+.panel2 {
+    background-image: url("images/roland_garros.jpg");
+}
+
+.panel3 {
+    background-image: url("images/vendee_globe.jpg");
+}
+
+.panel4 {
+    background-image: url("images/grand_prix_monaco.jpg");
+}
+
+.panel5 {
+    background-image: url();
+}
+
+.panel > * {
+    margin: 0;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.panel > *:first-child {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+.panel.open-active > *:first-child {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.panel > *:last-child {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+.panel.open-active > *:last-child {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.panel p {
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+    font-size: 10px;
+}
+
+.panel p:nth-child(2) {
+    font-size: 1em;
+}
+
+.panel.open {
+    font-size: 25px;
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+}
+
+.cta {
+    color: white;
+    text-decoration: none;
+}
+
+.panel img{
+    max-width: 20%;
+	height: auto;
+}
+
+
+/* Evenement sportif */
+/* début css map contact */
+.contactmap #foodora img {
+  width: 240px;
+  height: auto;
+  opacity: 0.7;
+
+}
+
+.contactmap #foodora img:hover{
+  opacity : 1;
+}
+.contactmap #foodora p {
+  position: relative;
+  bottom: 20px;
+  left: 80px;
+  color:white;
+  font-size: 1em;
+}
+
+.contactmap #foodora:hover p{
+  position: relative;
+  bottom: 20px;
+  left: 70px;
+  color:white;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.contactmap .row1 [class*="col-"], footer {
+
+  padding-top: 20px;
+  line-height: 40px;
+  color: black;
+  font: 15px sans-serif;
+}
+
+.contactmap h4 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.contactmap .horaires {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* fin css map contact */
+/* début pied de page */
+
+footer .row3 [class*="col-"], footer {
+  padding-top: 10px;
+  line-height: 15px;
+  text-align: center;
+  font : bold 0.8em sans-serif;
+  color: white;
+  background-color: black;
+}
+
+/* fin pied de page */  
+
+/* Media queries */ 
+/*@media screen and (min-width: 1200px){
+  li, .btn{
+      font-size: 35px;
+  }
+  }*/
+
+  @media screen and (max-width:1200px){
+      li:hover:before {
+          top: 7px;
+          height: 37px;
+      }
+      .navbar-left>li, .navbar-right>li{
+          font-size: 30px;
+      }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
+      li:hover:before {
+          top: 10px;
+          height: 27px;
+      }
+      .navbar-left>li, .navbar-right>li{
+  
+          font-size: 20px;
+      }
+  }
+  @media screen and (max-width:767px){
+    .navbar{
+      height: 50px;
+      margin-bottom: 0px;
+    }
+    .certificat{
+      text-align: center;
+    }
+    #moony{
+      position: relative;
+      width: 300px;
+      height: auto;
+      margin-left: 20%;
+      margin-right: 7%;
+    }
+    #moony button{
+      display: none;
+    }
+    #moony a{
+      width: 300px;
+    }
+    #bloc_video{
+      background-image: url('images/image_video.png');
+      width: auto;
+      height: auto;
+    }
+    video{
+      display: none;
+    }
+      .navbar-left{
+          padding-top: 0;
+          margin-bottom: 0;
+      }
+      .navbar-right{
+          margin: 0 auto;
+          padding-top: 0;
+      }
+      ul{
+          text-align: center;
+      }
+      li:hover:before {
+          top: 8px;
+          height: 22px;
+          background: rgba(40, 38, 38, 0.3);
+      }
+      .navbar-left>li, .navbar-right>li{
+          font-size: 15px;
+      }
+  }
+/* Fin Mdia queries */
